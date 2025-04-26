@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class NoteModel(models.Model):
     body = models.TextField()
     updated = models.DateTimeField(auto_now=True)
